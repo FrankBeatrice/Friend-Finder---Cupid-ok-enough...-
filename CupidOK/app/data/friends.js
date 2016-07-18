@@ -1,0 +1,104 @@
+
+var friends = [
+   {
+      "name":"Rigby",
+      "photo":"http://vignette2.wikia.nocookie.net/mugen/images/d/dd/Rigby.png/revision/latest?cb=20120108005615",
+      "scores":[
+         "5",
+         "1",
+         "4",
+         "4",
+         "5",
+         "1",
+         "2",
+         "5",
+         "4",
+         "1"
+      ]
+   },
+   {
+      "name":"Toad",
+      "photo":"https://s-media-cache-ak0.pinimg.com/236x/75/f6/68/75f668383f4386198bf050a7b3818b96.jpg",
+      "scores":[
+         "4",
+         "2",
+         "5",
+         "1",
+         "3",
+         "2",
+         "2",
+         "1",
+         "3",
+         "2"
+      ]
+   },
+   {
+      "name":"Marvin",
+      "photo":"http://images4.fanpop.com/image/articles/76000/hitchhikers-guide-to-the-galaxy_76477_top.jpg?cache=1285690163",
+      "scores":[
+         "5",
+         "2",
+         "2",
+         "2",
+         "4",
+         "5",
+         "3",
+         "2",
+         "5",
+         "5"
+      ]
+   },
+   
+   {
+      "name":"Mordecai",
+      "photo":"http://vignette3.wikia.nocookie.net/theregularshow/images/a/a7/250px-Mordecai_Character_Original.png/revision/latest?cb=20150806171309",
+      "scores":[
+         "3",
+         "3",
+         "4",
+         "2",
+         "2",
+         "1",
+         "3",
+         "2",
+         "2",
+         "3"
+      ]
+   },
+	{
+	   "name":"Comic-Book Guy",
+	   "photo":"http://www.therobotsvoice.com/wp-content/uploads/2008/06/comicguy.png",
+	   "scores":[
+	      "4",
+	      "3",
+	      "4",
+	      "1",
+	      "5",
+	      "2",
+	      "5",
+	      "3",
+	      "1",
+	      "4"
+	   ]
+	},
+	{
+	   "name":"Dr.Who",
+	   "photo":"https://upload.wikimedia.org/wikipedia/en/8/8a/Eleventhdoctornew.jpg",
+	   "scores":[
+	      "4",
+	      "4",
+	      "2",
+	      "3",
+	      "2",
+	      "2",
+	      "3",
+	      "2",
+	      "4",
+	      "5"
+	   ]
+	}
+
+]
+
+// Here we export the array. This makes it accessible to other files using require. 
+module.exports = friends;
